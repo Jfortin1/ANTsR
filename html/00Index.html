@@ -1,0 +1,597 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><title>R: ANTs in R</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+<h1> ANTs in R
+<img class="toplogo" src="../../../doc/html/logo.jpg" alt="[R logo]" />
+</h1>
+<hr/>
+<div style="text-align: center;">
+<a href="../../../doc/html/packages.html"><img class="arrow" src="../../../doc/html/left.jpg" alt="[Up]" /></a>
+<a href="../../../doc/html/index.html"><img class="arrow" src="../../../doc/html/up.jpg" alt="[Top]" /></a>
+</div><h2>Documentation for package &lsquo;ANTsR&rsquo; version 0.3.2</h2>
+
+<ul><li><a href="../DESCRIPTION">DESCRIPTION file</a>.</li>
+</ul>
+
+<h2>Help Pages</h2>
+
+
+<p style="text-align: center;">
+<a href="#A">A</a>
+<a href="#B">B</a>
+<a href="#C">C</a>
+<a href="#D">D</a>
+<a href="#E">E</a>
+<a href="#F">F</a>
+<a href="#G">G</a>
+<a href="#H">H</a>
+<a href="#I">I</a>
+<a href="#J">J</a>
+<a href="#K">K</a>
+<a href="#L">L</a>
+<a href="#M">M</a>
+<a href="#N">N</a>
+<a href="#P">P</a>
+<a href="#Q">Q</a>
+<a href="#R">R</a>
+<a href="#S">S</a>
+<a href="#T">T</a>
+<a href="#U">U</a>
+<a href="#V">V</a>
+<a href="#W">W</a>
+<a href="#misc">misc</a>
+</p>
+
+
+<h2><a name="A">-- A --</a></h2>
+
+<table width="100%">
+<tr><td style="width: 25%;"><a href="aal.html">aal</a></td>
+<td>aal</td></tr>
+<tr><td style="width: 25%;"><a href="abpBrainExtraction.html">abpBrainExtraction</a></td>
+<td>An ants-based brain extraction script.</td></tr>
+<tr><td style="width: 25%;"><a href="abpN4.html">abpN4</a></td>
+<td>MR image bias correction based on the N4 algorithm.</td></tr>
+<tr><td style="width: 25%;"><a href="antsImageArith.html">abs.antsImage</a></td>
+<td>arith.antsImage</td></tr>
+<tr><td style="width: 25%;"><a href="affineInitializer.html">affineInitializer</a></td>
+<td>a multi-start optimizer for affine registration</td></tr>
+<tr><td style="width: 25%;"><a href="antsApplyTransforms.html">antsApplyTransforms</a></td>
+<td>Apply transforms to images.</td></tr>
+<tr><td style="width: 25%;"><a href="antsApplyTransformsToPoints.html">antsApplyTransformsToPoints</a></td>
+<td>Apply transforms to points.</td></tr>
+<tr><td style="width: 25%;"><a href="antsApplyTransformToImage.html">antsApplyTransformToImage</a></td>
+<td>antsApplyTransformToImage</td></tr>
+<tr><td style="width: 25%;"><a href="antsApplyTransformToPoint.html">antsApplyTransformToPoint</a></td>
+<td>antsApplyTransformToPoint</td></tr>
+<tr><td style="width: 25%;"><a href="antsApplyTransformToVector.html">antsApplyTransformToVector</a></td>
+<td>antsApplyTransformToVector</td></tr>
+<tr><td style="width: 25%;"><a href="antsAverageImages.html">antsAverageImages</a></td>
+<td>Computes average of image list</td></tr>
+<tr><td style="width: 25%;"><a href="antsBOLDNetworkAnalysis.html">antsBOLDNetworkAnalysis</a></td>
+<td>a basic framework for network analysis that produces graph metrics</td></tr>
+<tr><td style="width: 25%;"><a href="antsCopyImageInfo.html">antsCopyImageInfo</a></td>
+<td>Copy header info</td></tr>
+<tr><td style="width: 25%;"><a href="antsImageGetSet.html">antsGetDirection</a></td>
+<td>antsImageGetSet</td></tr>
+<tr><td style="width: 25%;"><a href="antsImageGetSet.html">antsGetOrigin</a></td>
+<td>antsImageGetSet</td></tr>
+<tr><td style="width: 25%;"><a href="antsImageGetSet.html">antsGetSpacing</a></td>
+<td>antsImageGetSet</td></tr>
+<tr><td style="width: 25%;"><a href="antsImage-class.html">antsImage-class</a></td>
+<td>An S4 class for an antsImage</td></tr>
+<tr><td style="width: 25%;"><a href="antsImageArith.html">antsImageArith</a></td>
+<td>arith.antsImage</td></tr>
+<tr><td style="width: 25%;"><a href="antsImageClone.html">antsImageClone</a></td>
+<td>Clone an 'antsImage'.</td></tr>
+<tr><td style="width: 25%;"><a href="antsImageGetSet.html">antsImageGetSet</a></td>
+<td>antsImageGetSet</td></tr>
+<tr><td style="width: 25%;"><a href="antsImageHeaderInfo.html">antsImageHeaderInfo</a></td>
+<td>Read file info from image header</td></tr>
+<tr><td style="width: 25%;"><a href="antsImageIterator.html">antsImageIterator</a></td>
+<td>antsImageIterator</td></tr>
+<tr><td style="width: 25%;"><a href="antsImageIterator-class.html">antsImageIterator-class</a></td>
+<td>An S4 class for an antsImageIterator</td></tr>
+<tr><td style="width: 25%;"><a href="antsImageIteratorGet.html">antsImageIteratorGet</a></td>
+<td>antsImageIteratorGet</td></tr>
+<tr><td style="width: 25%;"><a href="antsImageIteratorGetIndex.html">antsImageIteratorGetIndex</a></td>
+<td>antsImageIteratorGetIndex</td></tr>
+<tr><td style="width: 25%;"><a href="antsImageIteratorGoToBegin.html">antsImageIteratorGoToBegin</a></td>
+<td>antsImageIteratorGoToBegin</td></tr>
+<tr><td style="width: 25%;"><a href="antsImageIteratorGoToReverseBegin.html">antsImageIteratorGoToReverseBegin</a></td>
+<td>antsImageIteratorGoToReverseBegin</td></tr>
+<tr><td style="width: 25%;"><a href="antsImageIteratorIsAtEnd.html">antsImageIteratorIsAtEnd</a></td>
+<td>antsImageIteratorIsAtEnd</td></tr>
+<tr><td style="width: 25%;"><a href="antsImageIteratorIsAtReverseEnd.html">antsImageIteratorIsAtReverseEnd</a></td>
+<td>antsImageIteratorIsAtReverseEnd</td></tr>
+<tr><td style="width: 25%;"><a href="antsImageIteratorNext.html">antsImageIteratorNext</a></td>
+<td>antsImageIteratorNext</td></tr>
+<tr><td style="width: 25%;"><a href="antsImageIteratorPrevious.html">antsImageIteratorPrevious</a></td>
+<td>antsImageIteratorPrevious</td></tr>
+<tr><td style="width: 25%;"><a href="antsImageIteratorRemaining.html">antsImageIteratorRemaining</a></td>
+<td>antsImageIteratorRemaining</td></tr>
+<tr><td style="width: 25%;"><a href="antsImageIteratorSet.html">antsImageIteratorSet</a></td>
+<td>antsImageIteratorSet</td></tr>
+<tr><td style="width: 25%;"><a href="antsImageIteratorSetIndex.html">antsImageIteratorSetIndex</a></td>
+<td>antsImageIteratorSetIndex</td></tr>
+<tr><td style="width: 25%;"><a href="antsImageMutualInformation.html">antsImageMutualInformation</a></td>
+<td>mutual information between two images</td></tr>
+<tr><td style="width: 25%;"><a href="antsImagePhysicalSpaceConsistency.html">antsImagePhysicalSpaceConsistency</a></td>
+<td>Check for physical space consistency</td></tr>
+<tr><td style="width: 25%;"><a href="antsImageRead.html">antsImageRead</a></td>
+<td>Image Read</td></tr>
+<tr><td style="width: 25%;"><a href="antsImageWrite.html">antsImageWrite</a></td>
+<td>Image Write</td></tr>
+<tr><td style="width: 25%;"><a href="antsMatrix-class.html">antsMatrix-class</a></td>
+<td>An S4 class to hold an antsMatrix imported from ITK types C++ type used to represent an element of the matrix pointer to the actual image C++ type 'itk::image&lt; pixeltype , dimension &gt;::Pointer'</td></tr>
+<tr><td style="width: 25%;"><a href="antsMotionCalculation.html">antsMotionCalculation</a></td>
+<td>antsMotionCalculation</td></tr>
+<tr><td style="width: 25%;"><a href="antsMotionCorr.html">antsMotionCorr</a></td>
+<td>Motion Correction</td></tr>
+<tr><td style="width: 25%;"><a href="antsRegion-class.html">antsRegion-class</a></td>
+<td>An S4 class to hold a region of an antsImage</td></tr>
+<tr><td style="width: 25%;"><a href="antsRegistration.html">antsRegistration</a></td>
+<td>Perform registration between two images.</td></tr>
+<tr><td style="width: 25%;"><a href="antsrGetPointerName.html">antsrGetPointerName</a></td>
+<td>Return the antsImage pointer string</td></tr>
+<tr><td style="width: 25%;"><a href="antsrimpute.html">antsrimpute</a></td>
+<td>antsrimpute</td></tr>
+<tr><td style="width: 25%;"><a href="antsImageGetSet.html">antsSetDirection</a></td>
+<td>antsImageGetSet</td></tr>
+<tr><td style="width: 25%;"><a href="antsImageGetSet.html">antsSetOrigin</a></td>
+<td>antsImageGetSet</td></tr>
+<tr><td style="width: 25%;"><a href="antsSetPixels.html">antsSetPixels</a></td>
+<td>Set a pixel value at an index</td></tr>
+<tr><td style="width: 25%;"><a href="antsImageGetSet.html">antsSetSpacing</a></td>
+<td>antsImageGetSet</td></tr>
+<tr><td style="width: 25%;"><a href="antsSpatialICAfMRI.html">antsSpatialICAfMRI</a></td>
+<td>Perform spatial ICA on fMRI bold data.</td></tr>
+<tr><td style="width: 25%;"><a href="antsTransform-class.html">antsTransform-class</a></td>
+<td>An S4 class for an antsTransform</td></tr>
+<tr><td style="width: 25%;"><a href="antsTransformCompose.html">antsTransformCompose</a></td>
+<td>antsTransformCompose</td></tr>
+<tr><td style="width: 25%;"><a href="antsTransformCreate.html">antsTransformCreate</a></td>
+<td>antsTransformCreate</td></tr>
+<tr><td style="width: 25%;"><a href="antsTransformGetParameters.html">antsTransformGetParameters</a></td>
+<td>antsTransformGetParameters</td></tr>
+<tr><td style="width: 25%;"><a href="antsTransformIndexToPhysicalPoint.html">antsTransformIndexToPhysicalPoint</a></td>
+<td>Get Spatial Point from Index</td></tr>
+<tr><td style="width: 25%;"><a href="antsTransformInverse.html">antsTransformInverse</a></td>
+<td>antsTransformInverse</td></tr>
+<tr><td style="width: 25%;"><a href="antsTransformPhysicalPointToIndex.html">antsTransformPhysicalPointToIndex</a></td>
+<td>Get Index from Spatial Point</td></tr>
+<tr><td style="width: 25%;"><a href="antsTransformRead.html">antsTransformRead</a></td>
+<td>antsTransformRead</td></tr>
+<tr><td style="width: 25%;"><a href="antsTransformSetParameters.html">antsTransformSetParameters</a></td>
+<td>antsTransformSetParameters</td></tr>
+<tr><td style="width: 25%;"><a href="apply.antsImage.html">apply.antsImage</a></td>
+<td>Extension of apply to allow input of antsImage</td></tr>
+<tr><td style="width: 25%;"><a href="as.antsImage.html">as.antsImage</a></td>
+<td>as.antsImage</td></tr>
+<tr><td style="width: 25%;"><a href="as.antsMatrix.html">as.antsMatrix</a></td>
+<td>as.antsMatrix</td></tr>
+<tr><td style="width: 25%;"><a href="aslAveraging.html">aslAveraging</a></td>
+<td>Average ASL tag-control pairs to estimate perfusion</td></tr>
+<tr><td style="width: 25%;"><a href="aslCensoring.html">aslCensoring</a></td>
+<td>Censor bad volumes from ASL data.</td></tr>
+<tr><td style="width: 25%;"><a href="aslDenoiseR.html">aslDenoiseR</a></td>
+<td>WIP: data-driven denoising for ASL MRI</td></tr>
+<tr><td style="width: 25%;"><a href="aslPerfusion.html">aslPerfusion</a></td>
+<td>ASL-based Perfusion from PASL, CASL or pCASL.</td></tr>
+<tr><td style="width: 25%;"><a href="atropos.html">atropos</a></td>
+<td>FMM Segmentation</td></tr>
+</table>
+
+<h2><a name="B">-- B --</a></h2>
+
+<table width="100%">
+<tr><td style="width: 25%;"><a href="basicInPaint.html">basicInPaint</a></td>
+<td>Inpaints missing imaging data from boundary data</td></tr>
+<tr><td style="width: 25%;"><a href="bayesianCBF.html">bayesianCBF</a></td>
+<td>Uses probabilistic segmentation to constrain pcasl-based cbf computation.</td></tr>
+<tr><td style="width: 25%;"><a href="bayesianlm.html">bayesianlm</a></td>
+<td>Simple bayesian regression function.</td></tr>
+<tr><td style="width: 25%;"><a href="bigLMStats.html">bigLMStats</a></td>
+<td>Efficiently compute basic statistical inference from regressions with multiple outcomes</td></tr>
+<tr><td style="width: 25%;"><a href="blockStimulus.html">blockStimulus</a></td>
+<td>Block stimulus model for FMRI Data</td></tr>
+<tr><td style="width: 25%;"><a href="bold_correlation_matrix.html">bold_correlation_matrix</a></td>
+<td>bold_correlation_matrix</td></tr>
+</table>
+
+<h2><a name="C">-- C --</a></h2>
+
+<table width="100%">
+<tr><td style="width: 25%;"><a href="clusterTimeSeries.html">clusterTimeSeries</a></td>
+<td>Split time series image into k distinct images</td></tr>
+<tr><td style="width: 25%;"><a href="combineNuisancePredictors.html">combineNuisancePredictors</a></td>
+<td>Combine and reduce dimensionality of nuisance predictors.</td></tr>
+<tr><td style="width: 25%;"><a href="compcor.html">compcor</a></td>
+<td>Compcors the input matrix using SVD and returns the result.</td></tr>
+<tr><td style="width: 25%;"><a href="computeDVARS.html">computeDVARS</a></td>
+<td>computeDVARS</td></tr>
+<tr><td style="width: 25%;"><a href="convolveImage.html">convolveImage</a></td>
+<td>convolve one image with another</td></tr>
+<tr><td style="width: 25%;"><a href="corw.html">corw</a></td>
+<td>produces a correlation matrix via weighted correlation.</td></tr>
+<tr><td style="width: 25%;"><a href="createJacobianDeterminantImage.html">createJacobianDeterminantImage</a></td>
+<td>createJacobianDeterminantImage</td></tr>
+<tr><td style="width: 25%;"><a href="cropImage.html">cropImage</a></td>
+<td>crop a sub-image via a mask</td></tr>
+<tr><td style="width: 25%;"><a href="cropIndices.html">cropIndices</a></td>
+<td>crop a sub-image by image indices</td></tr>
+<tr><td style="width: 25%;"><a href="crossvalidatedR2.html">crossvalidatedR2</a></td>
+<td>Cross-Validated R^2 value</td></tr>
+<tr><td style="width: 25%;"><a href="cvEigenanatomy.html">cvEigenanatomy</a></td>
+<td>Cross-validation method for eigenanatomy decompositions.</td></tr>
+</table>
+
+<h2><a name="D">-- D --</a></h2>
+
+<table width="100%">
+<tr><td style="width: 25%;"><a href="decropImage.html">decropImage</a></td>
+<td>decrop a sub-image back into the full image</td></tr>
+<tr><td style="width: 25%;"><a href="DesikanKillianyTourville.html">DesikanKillianyTourville</a></td>
+<td>DesikanKillianyTourville</td></tr>
+</table>
+
+<h2><a name="E">-- E --</a></h2>
+
+<table width="100%">
+<tr><td style="width: 25%;"><a href="eanatDef.html">eanatDef</a></td>
+<td>Eigenanatomy with deflation</td></tr>
+<tr><td style="width: 25%;"><a href="eanatSelect.html">eanatSelect</a></td>
+<td>Selection of n eigenvectors and sparsity for eigenanatomy</td></tr>
+<tr><td style="width: 25%;"><a href="eigSeg.html">eigSeg</a></td>
+<td>Segmentation for eigenanatomy.</td></tr>
+<tr><td style="width: 25%;"><a href="exemplarInpainting.html">exemplarInpainting</a></td>
+<td>Uses example images to inpaint or approximate an existing image.</td></tr>
+<tr><td style="width: 25%;"><a href="antsImageArith.html">exp.antsImage</a></td>
+<td>arith.antsImage</td></tr>
+<tr><td style="width: 25%;"><a href="extractSlice.html">extractSlice</a></td>
+<td>extract a slice from an image</td></tr>
+</table>
+
+<h2><a name="F">-- F --</a></h2>
+
+<table width="100%">
+<tr><td style="width: 25%;"><a href="fastMarchingExtension.html">fastMarchingExtension</a></td>
+<td>Fast Marching Extension filter will extend an intensity or label image from a known region into the unknown region along a geodesic path</td></tr>
+<tr><td style="width: 25%;"><a href="filterfMRIforNetworkAnalysis.html">filterfMRIforNetworkAnalysis</a></td>
+<td>Basic pre-processing for BOLD or ASL-based network analysis.</td></tr>
+<tr><td style="width: 25%;"><a href="frequencyFilterfMRI.html">frequencyFilterfMRI</a></td>
+<td>Band pass filtering for BOLD image.</td></tr>
+</table>
+
+<h2><a name="G">-- G --</a></h2>
+
+<table width="100%">
+<tr><td style="width: 25%;"><a href="geoSeg.html">geoSeg</a></td>
+<td>brain segmentation based on geometric priors</td></tr>
+<tr><td style="width: 25%;"><a href="getANTsRData.html">getANTsRData</a></td>
+<td>getANTsRData</td></tr>
+<tr><td style="width: 25%;"><a href="getASLNoisePredictors.html">getASLNoisePredictors</a></td>
+<td>Get nuisance predictors from ASL images</td></tr>
+<tr><td style="width: 25%;"><a href="getAverageOfTimeSeries.html">getAverageOfTimeSeries</a></td>
+<td>getAverageOfTimeSeries</td></tr>
+<tr><td style="width: 25%;"><a href="getCentroids.html">getCentroids</a></td>
+<td>Convert an image to the geometric centroids of its signal</td></tr>
+<tr><td style="width: 25%;"><a href="getfMRInuisanceVariables.html">getfMRInuisanceVariables</a></td>
+<td>Extract generic fMRI nuisance variables for ASL or BOLD</td></tr>
+<tr><td style="width: 25%;"><a href="getMask.html">getMask</a></td>
+<td>Get Mask</td></tr>
+<tr><td style="width: 25%;"><a href="getMultiResFeatureMatrix.html">getMultiResFeatureMatrix</a></td>
+<td>build multiple resolution predictor matrix from feature images</td></tr>
+<tr><td style="width: 25%;"><a href="getMultivariateTemplateCoordinates.html">getMultivariateTemplateCoordinates</a></td>
+<td>Label multivariate components by an anatomical coordinate system.</td></tr>
+<tr><td style="width: 25%;"><a href="getNeighborhoodAtVoxel.html">getNeighborhoodAtVoxel</a></td>
+<td>Get a hypercube neighborhood at a voxel</td></tr>
+<tr><td style="width: 25%;"><a href="getNeighborhoodInMask.html">getNeighborhoodInMask</a></td>
+<td>Get neighborhoods for voxels within mask</td></tr>
+<tr><td style="width: 25%;"><a href="getPixels.html">getPixels</a></td>
+<td>Get Pixels</td></tr>
+<tr><td style="width: 25%;"><a href="getTemplateCoordinates.html">getTemplateCoordinates</a></td>
+<td>Define an anatomical coordinate system in a new image based on a template</td></tr>
+</table>
+
+<h2><a name="H">-- H --</a></h2>
+
+<table width="100%">
+<tr><td style="width: 25%;"><a href="hemodynamicRF.html">hemodynamicRF</a></td>
+<td>Linear Model for FMRI Data</td></tr>
+</table>
+
+<h2><a name="I">-- I --</a></h2>
+
+<table width="100%">
+<tr><td style="width: 25%;"><a href="iBind.html">iBind</a></td>
+<td>iBind</td></tr>
+<tr><td style="width: 25%;"><a href="icawhiten.html">icawhiten</a></td>
+<td>Simple icawhitening function.</td></tr>
+<tr><td style="width: 25%;"><a href="image2ClusterImages.html">image2ClusterImages</a></td>
+<td>Converts an image to several independent images.</td></tr>
+<tr><td style="width: 25%;"><a href="imageFileNames2ImageList.html">imageFileNames2ImageList</a></td>
+<td>Simple imageFileNames2ImageListing function.</td></tr>
+<tr><td style="width: 25%;"><a href="imageListToMatrix.html">imageListToMatrix</a></td>
+<td>Read Images into a Matrix</td></tr>
+<tr><td style="width: 25%;"><a href="imagesToMatrix.html">imagesToMatrix</a></td>
+<td>Read Images into a Matrix</td></tr>
+<tr><td style="width: 25%;"><a href="iMath.html">iMath</a></td>
+<td>iMath</td></tr>
+<tr><td style="width: 25%;"><a href="iMathOps.html">iMathOps</a></td>
+<td>iMathOps</td></tr>
+<tr><td style="width: 25%;"><a href="initializeEigenanatomy.html">initializeEigenanatomy</a></td>
+<td>Convert a matrix to a form that can be used to initialize sparse cca and pca.</td></tr>
+<tr><td style="width: 25%;"><a href="interleaveMatrixWithItself.html">interleaveMatrixWithItself</a></td>
+<td>Simple interleaveMatrixWithItself function.</td></tr>
+<tr><td style="width: 25%;"><a href="invariantImageSimilarity.html">invariantImageSimilarity</a></td>
+<td>similarity metrics between two images as a function of geometry</td></tr>
+<tr><td style="width: 25%;"><a href="is.antsImage.html">is.antsImage</a></td>
+<td>is.antsImage</td></tr>
+</table>
+
+<h2><a name="J">-- J --</a></h2>
+
+<table width="100%">
+<tr><td style="width: 25%;"><a href="joinEigenanatomy.html">joinEigenanatomy</a></td>
+<td>Simple joinEigenanatomy function.</td></tr>
+<tr><td style="width: 25%;"><a href="jointIntensityFusion.html">jointIntensityFusion</a></td>
+<td>joint intensity fusion</td></tr>
+<tr><td style="width: 25%;"><a href="jointIntensityFusion3D.html">jointIntensityFusion3D</a></td>
+<td>jointIntensityFusion3D</td></tr>
+<tr><td style="width: 25%;"><a href="jointLabelFusion.html">jointLabelFusion</a></td>
+<td>joint label fusion</td></tr>
+<tr><td style="width: 25%;"><a href="jointLabelFusion3D.html">jointLabelFusion3D</a></td>
+<td>jointLabelFusion3D</td></tr>
+</table>
+
+<h2><a name="K">-- K --</a></h2>
+
+<table width="100%">
+<tr><td style="width: 25%;"><a href="kellyKapowski.html">kellyKapowski</a></td>
+<td>Compute cortical thickness using the DiReCT algorithm.</td></tr>
+<tr><td style="width: 25%;"><a href="kmeansSegmentation.html">kmeansSegmentation</a></td>
+<td>k means image segmentation.</td></tr>
+</table>
+
+<h2><a name="L">-- L --</a></h2>
+
+<table width="100%">
+<tr><td style="width: 25%;"><a href="labelClusters.html">labelClusters</a></td>
+<td>Simple labelClustering function.</td></tr>
+<tr><td style="width: 25%;"><a href="labelGeometryMeasures.html">labelGeometryMeasures</a></td>
+<td>labelGeometryMeasures</td></tr>
+<tr><td style="width: 25%;"><a href="labelImageCentroids.html">labelImageCentroids</a></td>
+<td>labelImageCentroids</td></tr>
+<tr><td style="width: 25%;"><a href="labelStats.html">labelStats</a></td>
+<td>labelStats</td></tr>
+<tr><td style="width: 25%;"><a href="lappend.html">lappend</a></td>
+<td>Simple list append tool</td></tr>
+<tr><td style="width: 25%;"><a href="save.ANTsR.html">load.ANTsR</a></td>
+<td>save.ANTsR</td></tr>
+<tr><td style="width: 25%;"><a href="antsImageArith.html">log.antsImage</a></td>
+<td>arith.antsImage</td></tr>
+<tr><td style="width: 25%;"><a href="lowrankRowMatrix.html">lowrankRowMatrix</a></td>
+<td>Produces a low rank version of the input matrix</td></tr>
+</table>
+
+<h2><a name="M">-- M --</a></h2>
+
+<table width="100%">
+<tr><td style="width: 25%;"><a href="make3ViewPNG.html">make3ViewPNG</a></td>
+<td>Rotate an existing 3d window into different views.</td></tr>
+<tr><td style="width: 25%;"><a href="makeGraph.html">makeGraph</a></td>
+<td>Simple function to create and measure a graph from a square input matrix.</td></tr>
+<tr><td style="width: 25%;"><a href="makeImage.html">makeImage</a></td>
+<td>Simple makeImage function.</td></tr>
+<tr><td style="width: 25%;"><a href="maskImage.html">maskImage</a></td>
+<td>Mask input image by mask image.</td></tr>
+<tr><td style="width: 25%;"><a href="matrix2timeseries.html">matrix2timeseries</a></td>
+<td>Simple matrix2timeseries function.</td></tr>
+<tr><td style="width: 25%;"><a href="matrixToImages.html">matrixToImages</a></td>
+<td>Convert rows of a matrix to images</td></tr>
+<tr><td style="width: 25%;"><a href="antsImageArith.html">mean-method</a></td>
+<td>arith.antsImage</td></tr>
+<tr><td style="width: 25%;"><a href="mergeChannels.html">mergeChannels</a></td>
+<td>merge images into a multiChannel antsImage</td></tr>
+<tr><td style="width: 25%;"><a href="mni2tal.html">mni2tal</a></td>
+<td>Brett's mni2tal</td></tr>
+<tr><td style="width: 25%;"><a href="mrvnrfs.html">mrvnrfs</a></td>
+<td>multi-res voxelwise neighborhood random forest segmentation learning</td></tr>
+<tr><td style="width: 25%;"><a href="mrvnrfs.predict.html">mrvnrfs.predict</a></td>
+<td>multi-res voxelwise neighborhood random forest segmentation</td></tr>
+<tr><td style="width: 25%;"><a href="multiResRandomForestRegression.html">multiResRandomForestRegression</a></td>
+<td>multiple resolution neighborhood random forest regression</td></tr>
+</table>
+
+<h2><a name="N">-- N --</a></h2>
+
+<table width="100%">
+<tr><td style="width: 25%;"><a href="n3BiasFieldCorrection.html">n3BiasFieldCorrection</a></td>
+<td>Bias Field Correction</td></tr>
+<tr><td style="width: 25%;"><a href="n4BiasFieldCorrection.html">n4BiasFieldCorrection</a></td>
+<td>Bias Field Correction</td></tr>
+<tr><td style="width: 25%;"><a href="networkEiganat.html">networkEiganat</a></td>
+<td>Convenience wrapper for eigenanatomy decomposition.</td></tr>
+</table>
+
+<h2><a name="P">-- P --</a></h2>
+
+<table width="100%">
+<tr><td style="width: 25%;"><a href="pairwiseImageDistanceMatrix.html">pairwiseImageDistanceMatrix</a></td>
+<td>Simple pairwiseImageDistanceMatrix function for images</td></tr>
+<tr><td style="width: 25%;"><a href="partialVolumeCorrection.html">partialVolumeCorrection</a></td>
+<td>Perform partial volume correction for ASL images.</td></tr>
+<tr><td style="width: 25%;"><a href="perfusionregression.html">perfusionregression</a></td>
+<td>Perfusion Regression</td></tr>
+<tr><td style="width: 25%;"><a href="plot.antsImage.html">plot.antsImage</a></td>
+<td>Plotting an image slice or multi-slice with optional color overlay.</td></tr>
+<tr><td style="width: 25%;"><a href="plotBasicNetwork.html">plotBasicNetwork</a></td>
+<td>Simple plotBasicNetwork function.</td></tr>
+<tr><td style="width: 25%;"><a href="plotPrettyGraph.html">plotPrettyGraph</a></td>
+<td>Simple plotPrettyGraph function saves to png.</td></tr>
+<tr><td style="width: 25%;"><a href="powers_areal_mni_itk.html">powers_areal_mni_itk</a></td>
+<td>powers_areal_mni_itk</td></tr>
+<tr><td style="width: 25%;"><a href="preprocessfMRI.html">preprocessfMRI</a></td>
+<td>Preprocess BOLD fMRI image data.</td></tr>
+<tr><td style="width: 25%;"><a href="preprocessRestingBOLD.html">preprocessRestingBOLD</a></td>
+<td>Preprocess resting BOLD fMRI image data.</td></tr>
+</table>
+
+<h2><a name="Q">-- Q --</a></h2>
+
+<table width="100%">
+<tr><td style="width: 25%;"><a href="quantifyCBF.html">quantifyCBF</a></td>
+<td>quantifyCBF</td></tr>
+<tr><td style="width: 25%;"><a href="quantifySNPs.html">quantifySNPs</a></td>
+<td>Simple quantifySNPs function.</td></tr>
+</table>
+
+<h2><a name="R">-- R --</a></h2>
+
+<table width="100%">
+<tr><td style="width: 25%;"><a href="randcca.html">randcca</a></td>
+<td>randomized cca function.</td></tr>
+<tr><td style="width: 25%;"><a href="randomMask.html">randomMask</a></td>
+<td>Get a random mask</td></tr>
+<tr><td style="width: 25%;"><a href="randsvd.html">randsvd</a></td>
+<td>randomized svd function.</td></tr>
+<tr><td style="width: 25%;"><a href="randwhiten.html">randwhiten</a></td>
+<td>randomized whitening function.</td></tr>
+<tr><td style="width: 25%;"><a href="rapidlyInspectImageData.html">rapidlyInspectImageData</a></td>
+<td>Simple rapidlyInspectImageData function.</td></tr>
+<tr><td style="width: 25%;"><a href="reflectImage.html">reflectImage</a></td>
+<td>reflectImage</td></tr>
+<tr><td style="width: 25%;"><a href="regressionNetworkViz.html">regressionNetworkViz</a></td>
+<td>Visualize a regression result by a d3 network visualization.</td></tr>
+<tr><td style="width: 25%;"><a href="regressProjections.html">regressProjections</a></td>
+<td>Regression on image set projection</td></tr>
+<tr><td style="width: 25%;"><a href="reho.html">reho</a></td>
+<td>REHO</td></tr>
+<tr><td style="width: 25%;"><a href="renderImageLabels.html">renderImageLabels</a></td>
+<td>3D surface-based rendering of image segmentation labels</td></tr>
+<tr><td style="width: 25%;"><a href="renderSurfaceFunction.html">renderSurfaceFunction</a></td>
+<td>3D surface-based rendering of volume images.</td></tr>
+<tr><td style="width: 25%;"><a href="renormalizeProbabilityImages.html">renormalizeProbabilityImages</a></td>
+<td>Normalize (modified) probability images</td></tr>
+<tr><td style="width: 25%;"><a href="reorientImage.html">reorientImage</a></td>
+<td>reorient image by its principal axis</td></tr>
+<tr><td style="width: 25%;"><a href="resampleImage.html">resampleImage</a></td>
+<td>resampleImage</td></tr>
+<tr><td style="width: 25%;"><a href="resampleImageToTarget.html">resampleImageToTarget</a></td>
+<td>resampleImageToTarget</td></tr>
+<tr><td style="width: 25%;"><a href="rfSegmentation.html">rfSegmentation</a></td>
+<td>A rfSegmentation function.</td></tr>
+<tr><td style="width: 25%;"><a href="rfSegmentationPredict.html">rfSegmentationPredict</a></td>
+<td>A rfSegmentationPredict function.</td></tr>
+<tr><td style="width: 25%;"><a href="robustMatrixTransform.html">robustMatrixTransform</a></td>
+<td>Simple robustMatrixTransform function.</td></tr>
+<tr><td style="width: 25%;"><a href="rsfDenoise.html">rsfDenoise</a></td>
+<td>WIP: data-driven denoising for resting state fMRI</td></tr>
+</table>
+
+<h2><a name="S">-- S --</a></h2>
+
+<table width="100%">
+<tr><td style="width: 25%;"><a href="save.ANTsR.html">save.ANTsR</a></td>
+<td>save.ANTsR</td></tr>
+<tr><td style="width: 25%;"><a href="segmentShapeFromImage.html">segmentShapeFromImage</a></td>
+<td>convolution-based shape identification</td></tr>
+<tr><td style="width: 25%;"><a href="smoothImage.html">smoothImage</a></td>
+<td>Smooth image</td></tr>
+<tr><td style="width: 25%;"><a href="sparseDecom.html">sparseDecom</a></td>
+<td>Convenience wrapper for eigenanatomy decomposition.</td></tr>
+<tr><td style="width: 25%;"><a href="sparseDecom2.html">sparseDecom2</a></td>
+<td>Convenience wrapper for 2-view eigenanatomy decomposition.</td></tr>
+<tr><td style="width: 25%;"><a href="sparseDecom2boot.html">sparseDecom2boot</a></td>
+<td>Convenience wrapper for 2-view eigenanatomy decomposition w/bootstrap initialization.</td></tr>
+<tr><td style="width: 25%;"><a href="sparseDecomboot.html">sparseDecomboot</a></td>
+<td>Convenience wrapper for eigenanatomy decomposition.</td></tr>
+<tr><td style="width: 25%;"><a href="sparseRegression.html">sparseRegression</a></td>
+<td>Sparse regression on input images.</td></tr>
+<tr><td style="width: 25%;"><a href="spatialbayesianlm.html">spatialbayesianlm</a></td>
+<td>spatially constrained bayesian regression function.</td></tr>
+<tr><td style="width: 25%;"><a href="splitChannels.html">splitChannels</a></td>
+<td>split a multichannel antsImage</td></tr>
+<tr><td style="width: 25%;"><a href="splitData.html">splitData</a></td>
+<td>Split data for testing and training</td></tr>
+<tr><td style="width: 25%;"><a href="splitMask.html">splitMask</a></td>
+<td>split a mask into n labeled sub-masks</td></tr>
+<tr><td style="width: 25%;"><a href="subgradientL1Regression.html">subgradientL1Regression</a></td>
+<td>Simple subgradientL1Regression function.</td></tr>
+<tr><td style="width: 25%;"><a href="subjectDataToGroupDataFrame.html">subjectDataToGroupDataFrame</a></td>
+<td>convert subject matrix data to a row in a dataframe.</td></tr>
+<tr><td style="width: 25%;"><a href="antsImageArith.html">sum-method</a></td>
+<td>arith.antsImage</td></tr>
+</table>
+
+<h2><a name="T">-- T --</a></h2>
+
+<table width="100%">
+<tr><td style="width: 25%;"><a href="taskFMRI.html">taskFMRI</a></td>
+<td>Simple taskFMRI function.</td></tr>
+<tr><td style="width: 25%;"><a href="temporalwhiten.html">temporalwhiten</a></td>
+<td>Simple autocorrelation-based temporal whitening function.</td></tr>
+<tr><td style="width: 25%;"><a href="testEanat.html">testEanat</a></td>
+<td>Test eigenanatomy in order</td></tr>
+<tr><td style="width: 25%;"><a href="thresholdImage.html">thresholdImage</a></td>
+<td>Threshold Image</td></tr>
+<tr><td style="width: 25%;"><a href="timeseries2matrix.html">timeseries2matrix</a></td>
+<td>Time-series image to matrix</td></tr>
+<tr><td style="width: 25%;"><a href="timeseriesN3.html">timeseriesN3</a></td>
+<td>Run N3 on slices of timeseries.</td></tr>
+<tr><td style="width: 25%;"><a href="timeserieswindow2matrix.html">timeserieswindow2matrix</a></td>
+<td>Time-series image to matrix of time windows around user-specified events</td></tr>
+<tr><td style="width: 25%;"><a href="tracts.html">tracts</a></td>
+<td>tracts</td></tr>
+</table>
+
+<h2><a name="U">-- U --</a></h2>
+
+<table width="100%">
+<tr><td style="width: 25%;"><a href="usePkg.html">usePkg</a></td>
+<td>Use any package.  If package is not installed, this will install from CRAN.</td></tr>
+</table>
+
+<h2><a name="V">-- V --</a></h2>
+
+<table width="100%">
+<tr><td style="width: 25%;"><a href="vwnrfs.html">vwnrfs</a></td>
+<td>voxelwise neighborhood random forest segmentation and prediction</td></tr>
+<tr><td style="width: 25%;"><a href="vwnrfs.predict.html">vwnrfs.predict</a></td>
+<td>voxelwise neighborhood random forest prediction</td></tr>
+</table>
+
+<h2><a name="W">-- W --</a></h2>
+
+<table width="100%">
+<tr><td style="width: 25%;"><a href="weingartenImageCurvature.html">weingartenImageCurvature</a></td>
+<td>image curvature for 3D</td></tr>
+<tr><td style="width: 25%;"><a href="whiten.html">whiten</a></td>
+<td>Simple whitening function.</td></tr>
+</table>
+
+<h2><a name="misc">-- misc --</a></h2>
+
+<table width="100%">
+<tr><td style="width: 25%;"><a href="antsImageArith.html">%%.antsImage</a></td>
+<td>arith.antsImage</td></tr>
+<tr><td style="width: 25%;"><a href="grapes-greater-than-grapes.html">%&gt;%</a></td>
+<td>Pipe an object forward</td></tr>
+<tr><td style="width: 25%;"><a href="antsImageArith.html">*.antsImage</a></td>
+<td>arith.antsImage</td></tr>
+<tr><td style="width: 25%;"><a href="antsImageArith.html">+.antsImage</a></td>
+<td>arith.antsImage</td></tr>
+<tr><td style="width: 25%;"><a href="antsImageArith.html">-.antsImage</a></td>
+<td>arith.antsImage</td></tr>
+<tr><td style="width: 25%;"><a href="antsImageArith.html">/.antsImage</a></td>
+<td>arith.antsImage</td></tr>
+<tr><td style="width: 25%;"><a href="sub-antsImage-NULL-ANY-method.html">[-method</a></td>
+<td>ants image substitutions</td></tr>
+<tr><td style="width: 25%;"><a href="antsImageArith.html">^.antsImage</a></td>
+<td>arith.antsImage</td></tr>
+</table>
+</body></html>

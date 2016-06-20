@@ -1,0 +1,295 @@
+%>%                     Pipe an object forward
+DesikanKillianyTourville
+                        DesikanKillianyTourville
+[,antsImage,NULL,ANY-method
+                        ants image substitutions
+aal                     aal
+abpBrainExtraction      An ants-based brain extraction script.
+abpN4                   MR image bias correction based on the N4
+                        algorithm.
+affineInitializer       a multi-start optimizer for affine registration
+antsApplyTransformToImage
+                        antsApplyTransformToImage
+antsApplyTransformToPoint
+                        antsApplyTransformToPoint
+antsApplyTransformToVector
+                        antsApplyTransformToVector
+antsApplyTransforms     Apply transforms to images.
+antsApplyTransformsToPoints
+                        Apply transforms to points.
+antsAverageImages       Computes average of image list
+antsBOLDNetworkAnalysis
+                        a basic framework for network analysis that
+                        produces graph metrics
+antsCopyImageInfo       Copy header info
+antsImage-class         An S4 class for an antsImage
+antsImageClone          Clone an 'antsImage'.
+antsImageGetSet         antsImageGetSet
+antsImageHeaderInfo     Read file info from image header
+antsImageIterator       antsImageIterator
+antsImageIterator-class
+                        An S4 class for an antsImageIterator
+antsImageIteratorGet    antsImageIteratorGet
+antsImageIteratorGetIndex
+                        antsImageIteratorGetIndex
+antsImageIteratorGoToBegin
+                        antsImageIteratorGoToBegin
+antsImageIteratorGoToReverseBegin
+                        antsImageIteratorGoToReverseBegin
+antsImageIteratorIsAtEnd
+                        antsImageIteratorIsAtEnd
+antsImageIteratorIsAtReverseEnd
+                        antsImageIteratorIsAtReverseEnd
+antsImageIteratorNext   antsImageIteratorNext
+antsImageIteratorPrevious
+                        antsImageIteratorPrevious
+antsImageIteratorRemaining
+                        antsImageIteratorRemaining
+antsImageIteratorSet    antsImageIteratorSet
+antsImageIteratorSetIndex
+                        antsImageIteratorSetIndex
+antsImageMutualInformation
+                        mutual information between two images
+antsImagePhysicalSpaceConsistency
+                        Check for physical space consistency
+antsImageRead           Image Read
+antsImageWrite          Image Write
+antsMatrix-class        An S4 class to hold an antsMatrix imported from
+                        ITK types C++ type used to represent an element
+                        of the matrix pointer to the actual image C++
+                        type 'itk::image< pixeltype , dimension
+                        >::Pointer'
+antsMotionCalculation   antsMotionCalculation
+antsMotionCorr          Motion Correction
+antsRegion-class        An S4 class to hold a region of an antsImage
+antsRegistration        Perform registration between two images.
+antsSetPixels           Set a pixel value at an index
+antsSpatialICAfMRI      Perform spatial ICA on fMRI bold data.
+antsTransform-class     An S4 class for an antsTransform
+antsTransformCompose    antsTransformCompose
+antsTransformCreate     antsTransformCreate
+antsTransformGetParameters
+                        antsTransformGetParameters
+antsTransformIndexToPhysicalPoint
+                        Get Spatial Point from Index
+antsTransformInverse    antsTransformInverse
+antsTransformPhysicalPointToIndex
+                        Get Index from Spatial Point
+antsTransformRead       antsTransformRead
+antsTransformSetParameters
+                        antsTransformSetParameters
+antsrGetPointerName     Return the antsImage pointer string
+antsrimpute             antsrimpute
+apply.antsImage         Extension of apply to allow input of antsImage
+as.antsImage            as.antsImage
+as.antsMatrix           as.antsMatrix
+aslAveraging            Average ASL tag-control pairs to estimate
+                        perfusion
+aslCensoring            Censor bad volumes from ASL data.
+aslDenoiseR             WIP: data-driven denoising for ASL MRI
+aslPerfusion            ASL-based Perfusion from PASL, CASL or pCASL.
+atropos                 FMM Segmentation
+basicInPaint            Inpaints missing imaging data from boundary
+                        data
+bayesianCBF             Uses probabilistic segmentation to constrain
+                        pcasl-based cbf computation.
+bayesianlm              Simple bayesian regression function.
+bigLMStats              Efficiently compute basic statistical inference
+                        from regressions with multiple outcomes
+blockStimulus           Block stimulus model for FMRI Data
+bold_correlation_matrix
+                        bold_correlation_matrix
+clusterTimeSeries       Split time series image into k distinct images
+combineNuisancePredictors
+                        Combine and reduce dimensionality of nuisance
+                        predictors.
+compcor                 Compcors the input matrix using SVD and returns
+                        the result.
+computeDVARS            computeDVARS
+convolveImage           convolve one image with another
+corw                    produces a correlation matrix via weighted
+                        correlation.
+createJacobianDeterminantImage
+                        createJacobianDeterminantImage
+cropImage               crop a sub-image via a mask
+cropIndices             crop a sub-image by image indices
+crossvalidatedR2        Cross-Validated R^2 value
+cvEigenanatomy          Cross-validation method for eigenanatomy
+                        decompositions.
+decropImage             decrop a sub-image back into the full image
+eanatDef                Eigenanatomy with deflation
+eanatSelect             Selection of n eigenvectors and sparsity for
+                        eigenanatomy
+eigSeg                  Segmentation for eigenanatomy.
+exemplarInpainting      Uses example images to inpaint or approximate
+                        an existing image.
+extractSlice            extract a slice from an image
+fastMarchingExtension   Fast Marching Extension filter will extend an
+                        intensity or label image from a known region
+                        into the unknown region along a geodesic path
+filterfMRIforNetworkAnalysis
+                        Basic pre-processing for BOLD or ASL-based
+                        network analysis.
+frequencyFilterfMRI     Band pass filtering for BOLD image.
+geoSeg                  brain segmentation based on geometric priors
+getANTsRData            getANTsRData
+getASLNoisePredictors   Get nuisance predictors from ASL images
+getAverageOfTimeSeries
+                        getAverageOfTimeSeries
+getCentroids            Convert an image to the geometric centroids of
+                        its signal
+getMask                 Get Mask
+getMultiResFeatureMatrix
+                        build multiple resolution predictor matrix from
+                        feature images
+getMultivariateTemplateCoordinates
+                        Label multivariate components by an anatomical
+                        coordinate system.
+getNeighborhoodAtVoxel
+                        Get a hypercube neighborhood at a voxel
+getNeighborhoodInMask   Get neighborhoods for voxels within mask
+getPixels               Get Pixels
+getTemplateCoordinates
+                        Define an anatomical coordinate system in a new
+                        image based on a template
+getfMRInuisanceVariables
+                        Extract generic fMRI nuisance variables for ASL
+                        or BOLD
+hemodynamicRF           Linear Model for FMRI Data
+iBind                   iBind
+iMath                   iMath
+iMathOps                iMathOps
+icawhiten               Simple icawhitening function.
+image2ClusterImages     Converts an image to several independent
+                        images.
+imageFileNames2ImageList
+                        Simple imageFileNames2ImageListing function.
+imageListToMatrix       Read Images into a Matrix
+imagesToMatrix          Read Images into a Matrix
+initializeEigenanatomy
+                        Convert a matrix to a form that can be used to
+                        initialize sparse cca and pca.
+interleaveMatrixWithItself
+                        Simple interleaveMatrixWithItself function.
+invariantImageSimilarity
+                        similarity metrics between two images as a
+                        function of geometry
+is.antsImage            is.antsImage
+joinEigenanatomy        Simple joinEigenanatomy function.
+jointIntensityFusion    joint intensity fusion
+jointIntensityFusion3D
+                        jointIntensityFusion3D
+jointLabelFusion        joint label fusion
+jointLabelFusion3D      jointLabelFusion3D
+kellyKapowski           Compute cortical thickness using the DiReCT
+                        algorithm.
+kmeansSegmentation      k means image segmentation.
+labelClusters           Simple labelClustering function.
+labelGeometryMeasures   labelGeometryMeasures
+labelImageCentroids     labelImageCentroids
+labelStats              labelStats
+lappend                 Simple list append tool
+lowrankRowMatrix        Produces a low rank version of the input matrix
+make3ViewPNG            Rotate an existing 3d window into different
+                        views.
+makeGraph               Simple function to create and measure a graph
+                        from a square input matrix.
+makeImage               Simple makeImage function.
+maskImage               Mask input image by mask image.
+matrix2timeseries       Simple matrix2timeseries function.
+matrixToImages          Convert rows of a matrix to images
+mean,antsImage-method   arith.antsImage
+mergeChannels           merge images into a multiChannel antsImage
+mni2tal                 Brett's mni2tal
+mrvnrfs                 multi-res voxelwise neighborhood random forest
+                        segmentation learning
+mrvnrfs.predict         multi-res voxelwise neighborhood random forest
+                        segmentation
+multiResRandomForestRegression
+                        multiple resolution neighborhood random forest
+                        regression
+n3BiasFieldCorrection   Bias Field Correction
+n4BiasFieldCorrection   Bias Field Correction
+networkEiganat          Convenience wrapper for eigenanatomy
+                        decomposition.
+pairwiseImageDistanceMatrix
+                        Simple pairwiseImageDistanceMatrix function for
+                        images
+partialVolumeCorrection
+                        Perform partial volume correction for ASL
+                        images.
+perfusionregression     Perfusion Regression
+plot.antsImage          Plotting an image slice or multi-slice with
+                        optional color overlay.
+plotBasicNetwork        Simple plotBasicNetwork function.
+plotPrettyGraph         Simple plotPrettyGraph function saves to png.
+powers_areal_mni_itk    powers_areal_mni_itk
+preprocessRestingBOLD   Preprocess resting BOLD fMRI image data.
+preprocessfMRI          Preprocess BOLD fMRI image data.
+quantifyCBF             quantifyCBF
+quantifySNPs            Simple quantifySNPs function.
+randcca                 randomized cca function.
+randomMask              Get a random mask
+randsvd                 randomized svd function.
+randwhiten              randomized whitening function.
+rapidlyInspectImageData
+                        Simple rapidlyInspectImageData function.
+reflectImage            reflectImage
+regressProjections      Regression on image set projection
+regressionNetworkViz    Visualize a regression result by a d3 network
+                        visualization.
+reho                    REHO
+renderImageLabels       3D surface-based rendering of image
+                        segmentation labels
+renderSurfaceFunction   3D surface-based rendering of volume images.
+renormalizeProbabilityImages
+                        Normalize (modified) probability images
+reorientImage           reorient image by its principal axis
+resampleImage           resampleImage
+resampleImageToTarget   resampleImageToTarget
+rfSegmentation          A rfSegmentation function.
+rfSegmentationPredict   A rfSegmentationPredict function.
+robustMatrixTransform   Simple robustMatrixTransform function.
+rsfDenoise              WIP: data-driven denoising for resting state
+                        fMRI
+save.ANTsR              save.ANTsR
+segmentShapeFromImage   convolution-based shape identification
+smoothImage             Smooth image
+sparseDecom             Convenience wrapper for eigenanatomy
+                        decomposition.
+sparseDecom2            Convenience wrapper for 2-view eigenanatomy
+                        decomposition.
+sparseDecom2boot        Convenience wrapper for 2-view eigenanatomy
+                        decomposition w/bootstrap initialization.
+sparseDecomboot         Convenience wrapper for eigenanatomy
+                        decomposition.
+sparseRegression        Sparse regression on input images.
+spatialbayesianlm       spatially constrained bayesian regression
+                        function.
+splitChannels           split a multichannel antsImage
+splitData               Split data for testing and training
+splitMask               split a mask into n labeled sub-masks
+subgradientL1Regression
+                        Simple subgradientL1Regression function.
+subjectDataToGroupDataFrame
+                        convert subject matrix data to a row in a
+                        dataframe.
+taskFMRI                Simple taskFMRI function.
+temporalwhiten          Simple autocorrelation-based temporal whitening
+                        function.
+testEanat               Test eigenanatomy in order
+thresholdImage          Threshold Image
+timeseries2matrix       Time-series image to matrix
+timeseriesN3            Run N3 on slices of timeseries.
+timeserieswindow2matrix
+                        Time-series image to matrix of time windows
+                        around user-specified events
+tracts                  tracts
+usePkg                  Use any package.  If package is not installed,
+                        this will install from CRAN.
+vwnrfs                  voxelwise neighborhood random forest
+                        segmentation and prediction
+vwnrfs.predict          voxelwise neighborhood random forest prediction
+weingartenImageCurvature
+                        image curvature for 3D
+whiten                  Simple whitening function.
